@@ -48,22 +48,22 @@ Iniciar php:
 
 ![preview](images/pagina-generada-1.jpg)
 
-[Demo](https://luisfigueroaa.github.io/paginas-ia/pages/pagina_1772851402.html) | [Video Celular](https://youtube.com/shorts/OiAY-D2cfJ4) | [Video PC]()
+[Demo](https://aetheron-iot.github.io/paginas-ia/pages/pagina_1772851402.html) | [Video Celular](https://youtube.com/shorts/OiAY-D2cfJ4) | [Video PC]()
 
 **Domino Restaurant-Cafe**
 
 ![preview](images/pagina-generada-2.jpg)
 
-[Demo](https://luisfigueroaa.github.io/paginas-ia/pages/pagina_1772906956.html) | [Video](#)
+[Demo](https://aetheron-iot.github.io/paginas-ia/pages/pagina_1772906956.html) | [Video](#)
 
 **Restaurant Facu's**
 
 ![preview](images/pagina-generada-3.jpg)
 
-[Demo](https://luisfigueroaa.github.io/paginas-ia/pages/pagina_1772907338.html) | [Video](#)
+[Demo](https://aetheron-iot.github.io/paginas-ia/pages/pagina_1772907338.html) | [Video](#)
 
 **Dao's Arequipa**
 
 ![preview](images/pagina-generada-4.jpg)
 
-[Demo](https://luisfigueroaa.github.io/paginas-ia/pages/pagina_1772907833.html) | [Video](#)
+[Demo](https://aetheron-iot.github.io/paginas-ia/pages/pagina_1772907833.html) | [Video](#)
