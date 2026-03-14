@@ -48,7 +48,7 @@ Iniciar php:
 
 ![preview](images/pagina-generada-1.jpg)
 
-[Demo](https://aetheron-iot.github.io/paginas-ia/pages/pagina_1772851402.html) | [Video Celular](https://youtube.com/shorts/OiAY-D2cfJ4) | [Video PC](https://youtu.be/PpCuMuFkMDM)
+[Demo](https://aetheron-iot.github.io/paginas-ia/pages/pagina_1772851402.html) | [Video](https://youtu.be/PpCuMuFkMDM) | [Video Celular](https://youtube.com/shorts/OiAY-D2cfJ4) 
 
 **Domino Restaurant-Cafe**
 
