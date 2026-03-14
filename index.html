@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Generador Web IA</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="content">
+
+<div id="title">
+    <img src="logo.png" alt="logo" id="logo">
+    <h1>&nbsp;Aetheron | Generador de Webs con IA</h1>
+</div>
+
+<h2 id="subtitle">Coloque o edite el siguiente prompt para generar el sitio web</h2>
+
+<div id="content-prompt">
+
+<textarea id="prompt" rows="6" cols="60">
+Crea una landing page moderna con navbar y sección de servicios.
+</textarea>
+
+</div>
+
+<div id="bt-generar">
+<button onclick="generar()">Generar</button>
+</div>
+
+<iframe id="preview"></iframe>
+
+<script>
+async function generar() {
+    const prompt = document.getElementById("prompt").value;
+
+    document.getElementById("preview").srcdoc = "Generando página web..."
+
+    const response = await fetch("backend.php", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ prompt: prompt })
+    });
+
+    const html = await response.text();
+    document.getElementById("preview").srcdoc = html;
+}
+</script>
+</div>
+</body>
+</html>

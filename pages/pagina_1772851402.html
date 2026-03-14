@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D'Pana Restaurante - Sabor Inigualable</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #ff4d00;
+            --secondary: #ffc107;
+            --dark: #1a1a1a;
+            --light: #f8f9fa;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+
+        header {
+            background: var(--dark);
+            padding: 1rem 5%;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        }
+
+        .logo {
+            color: var(--primary);
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 800;
+            font-size: 1.5rem;
+            text-decoration: none;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--primary);
+        }
+
+        .hero {
+            height: 80vh;
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1550547660-d9450f859349?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            padding: 0 20px;
+            margin-top: 60px;
+        }
+
+        .hero h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .btn {
+            background: var(--primary);
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: var(--secondary);
+            transform: scale(1.05);
+        }
+
+        .services {
+            padding: 80px 10%;
+            text-align: center;
+        }
+
+        .services h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2.5rem;
+            margin-bottom: 50px;
+            position: relative;
+        }
+
+        .services h2::after {
+            content: '';
+            width: 80px;
+            height: 4px;
+            background: var(--primary);
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .menu-card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+            transition: 0.3s;
+            border-bottom: 5px solid transparent;
+        }
+
+        .menu-card:hover {
+            transform: translateY(-10px);
+            border-bottom: 5px solid var(--primary);
+        }
+
+        .menu-card h3 {
+            margin: 15px 0;
+            color: var(--dark);
+        }
+
+        .icon {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: var(--dark);
+            color: white;
+            padding: 40px 10%;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.5rem; }
+            nav { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">D'PANA RESTAURANTE</a>
+        <nav>
+            <a href="#home">Inicio</a>
+            <a href="#menu">Nuestro Menú</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Sabor que te une</h1>
+        <p>Las mejores hamburguesas y comida urbana en un solo lugar.</p>
+        <a href="#menu" class="btn">Ver Menú</a>
+    </section>
+
+    <section class="services" id="menu">
+        <h2>Nuestro Menú Especial</h2>
+        <div class="menu-grid">
+            <div class="menu-card">
+                <div class="icon">🍔</div>
+                <h3>Hamburger</h3>
+                <p>Carne premium, queso fundido, vegetales frescos y nuestra salsa secreta D'Pana.</p>
+            </div>
+            <div class="menu-card">
+                <div class="icon">🌭</div>
+                <h3>Perros Calientes</h3>
+                <p>Estilo callejero con lluvia de papas, repollo, cebolla y el toque de la casa.</p>
+            </div>
+            <div class="menu-card">
+                <div class="icon">🌯</div>
+                <h3>Pepito Mediano</h3>
+                <p>Pan artesanal relleno de carne, pollo y tocineta con gratinado especial.</p>
+            </div>
+            <div class="menu-card">
+                <div class="icon">🥟</div>
+                <h3>Empanadas de Pabellón</h3>
+                <p>Tradición pura: Carne mechada, caraotas, tajadas y queso blanco.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto">
+        <p>&copy; 2023 D'Pana Restaurante - Todos los derechos reservados.</p>
+        <p style="margin-top: 10px; font-size: 0.8rem; opacity: 0.7;">📍 Calle Principal del Sabor, Ciudad Gourmet</p>
+    </footer>
+
+</body>
+</html>

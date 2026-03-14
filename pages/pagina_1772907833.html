@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dao's Arequipa | Mixtura Arequipeña</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+        h1, h2, h3 { font-family: 'Playfair Display', serif; }
+        .hero-bg {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-stone-50 text-stone-800">
+
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="text-2xl font-bold text-red-700">Dao's <span class="text-stone-700">Arequipa</span></span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#inicio" class="hover:text-red-700 transition">Inicio</a>
+                        <a href="#servicios" class="hover:text-red-700 transition">Servicios</a>
+                        <a href="#menu" class="hover:text-red-700 transition">Nuestra Carta</a>
+                        <a href="#contacto" class="bg-red-700 text-white px-5 py-2 rounded-full hover:bg-red-800 transition">Reservar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header id="inicio" class="hero-bg h-screen flex items-center justify-center text-center text-white pt-20">
+        <div class="px-4">
+            <h1 class="text-5xl md:text-7xl mb-4">Sabor Tradicional Arequipeño</h1>
+            <p class="text-xl md:text-2xl mb-8 font-light italic">La mejor mixtura arequipeña en el corazón de Miraflores</p>
+            <a href="#servicios" class="border-2 border-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-white hover:text-red-700 transition duration-300">Descubre más</a>
+        </div>
+    </header>
+
+    <section id="servicios" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-stone-900 mb-4">Nuestros Servicios</h2>
+                <div class="w-24 h-1 bg-red-700 mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div class="text-center p-8 rounded-2xl bg-stone-50 hover:shadow-xl transition duration-300 border-b-4 border-red-700">
+                    <div class="text-red-700 text-4xl mb-6">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Gastronomía Típica</h3>
+                    <p class="text-stone-600">Disfruta de nuestros platos bandera: Rocoto Relleno, Adobo y nuestra auténtica Mixtura Arequipeña.</p>
+                </div>
+
+                <div class="text-center p-8 rounded-2xl bg-stone-50 hover:shadow-xl transition duration-300 border-b-4 border-red-700">
+                    <div class="text-red-700 text-4xl mb-6">
+                        <i class="fas fa-glass-cheers"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Eventos y Banquetes</h3>
+                    <p class="text-stone-600">Celebra tus momentos especiales con nosotros. Ofrecemos ambientes acogedores y atención personalizada.</p>
+                </div>
+
+                <div class="text-center p-8 rounded-2xl bg-stone-50 hover:shadow-xl transition duration-300 border-b-4 border-red-700">
+                    <div class="text-red-700 text-4xl mb-6">
+                        <i class="fas fa-motorcycle"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Delivery & Pickup</h3>
+                    <p class="text-stone-600">Llevamos el sabor de Arequipa hasta la puerta de tu hogar con empaques térmicos de alta calidad.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="py-20 bg-stone-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold mb-12 italic">Visítanos en Miraflores</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6 text-left">
+                    <div class="flex items-center space-x-4">
+                        <div class="bg-red-700 p-4 rounded-full"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <p class="text-stone-400">Dirección</p>
+                            <p class="text-xl">C. Teniente Rodríguez 1309, Miraflores</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <div class="bg-red-700 p-4 rounded-full"><i class="fas fa-phone"></i></div>
+                        <div>
+                            <p class="text-stone-400">Reservas</p>
+                            <p class="text-xl">+51 987 654 321</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <div class="bg-red-700 p-4 rounded-full"><i class="fas fa-clock"></i></div>
+                        <div>
+                            <p class="text-stone-400">Horario</p>
+                            <p class="text-xl">Mar - Dom: 12:00 PM - 6:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="h-80 bg-stone-800 rounded-2xl flex items-center justify-center border border-stone-700">
+                    <p class="text-stone-500 italic">[ Mapa Interactivo - Dao's Arequipa ]</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-8 bg-stone-950 text-stone-500 text-center border-t border-stone-800">
+        <p>&copy; 2023 Dao's Arequipa - Restaurante de Mixtura Arequipeña. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
