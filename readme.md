@@ -54,16 +54,16 @@ Iniciar php:
 
 ![preview](images/pagina-generada-2.jpg)
 
-[Demo](https://aetheron-iot.github.io/paginas-ia/pages/pagina_1772906956.html) | [Video](#) | [Video Celular](https://youtube.com/shorts/otr7UjctvJA)
+[Demo](https://aetheron-iot.github.io/paginas-ia/pages/pagina_1772906956.html) | [Video](https://youtu.be/Rm4ReBN56Sw) | [Video Celular](https://youtube.com/shorts/otr7UjctvJA)
 
 **Restaurant Facu's**
 
 ![preview](images/pagina-generada-3.jpg)
 
-[Demo](https://aetheron-iot.github.io/paginas-ia/pages/pagina_1772907338.html) | [Video](#)
+[Demo](https://aetheron-iot.github.io/paginas-ia/pages/pagina_1772907338.html) | [Video](https://youtu.be/1NX0V3CXzzQ) | [Video Celular](https://youtube.com/shorts/o6LOuljDbJw)
 
 **Dao's Arequipa**
 
 ![preview](images/pagina-generada-4.jpg)
 
-[Demo](https://aetheron-iot.github.io/paginas-ia/pages/pagina_1772907833.html) | [Video](#)
+[Demo](https://aetheron-iot.github.io/paginas-ia/pages/pagina_1772907833.html) | [Video](https://youtu.be/Qdx8dOqzayo) | [Video Celular](#)
