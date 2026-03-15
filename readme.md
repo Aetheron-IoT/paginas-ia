@@ -54,16 +54,16 @@ Iniciar php:
 
 ![preview](images/pagina-generada-2.jpg)
 
-[Demo](https://aetheron-iot.github.io/paginas-ia/pages/pagina_1772906956.html) | [Video](https://youtu.be/Rm4ReBN56Sw) | [Video Celular](https://youtube.com/shorts/otr7UjctvJA)
+[Demo](https://aetheron-iot.github.io/paginas-ia/pages/pagina_1772906956.html) | [Video](https://1drv.ms/v/c/08264f96dbafdff1/IQCvrav25uSNTIul86dpdnoKAdpUUyJp6n22Ncl3ewOnXgE?e=mD88qf) | [Video Celular](https://1drv.ms/v/c/08264f96dbafdff1/IQCJZ4BgyKkgQYcxmkY7gnTDAduWu1rNo6u9KjBBfUx4-Xk?e=n6PdwT)
 
 **Restaurant Facu's**
 
 ![preview](images/pagina-generada-3.jpg)
 
-[Demo](https://aetheron-iot.github.io/paginas-ia/pages/pagina_1772907338.html) | [Video](https://youtu.be/1NX0V3CXzzQ) | [Video Celular](https://youtube.com/shorts/o6LOuljDbJw)
+[Demo](https://aetheron-iot.github.io/paginas-ia/pages/pagina_1772907338.html) | [Video](https://1drv.ms/v/c/08264f96dbafdff1/IQDWIprwckUnRbPeH7rl2Sa1AQoeLyen8f-iD7kzTnCTbLU?e=rO9p7q) | [Video Celular](https://1drv.ms/v/c/08264f96dbafdff1/IQCxrtxp97dYRKMgS4NwulDLAXZBC4bofsVOlaepXWkFNUM?e=LKU35e)
 
 **Dao's Arequipa**
 
 ![preview](images/pagina-generada-4.jpg)
 
-[Demo](https://aetheron-iot.github.io/paginas-ia/pages/pagina_1772907833.html) | [Video](https://youtu.be/Qdx8dOqzayo) | [Video Celular](#)
+[Demo](https://aetheron-iot.github.io/paginas-ia/pages/pagina_1772907833.html) | [Video](https://1drv.ms/v/c/08264f96dbafdff1/IQD06gCZ-GqYR70NcSRO8SQdAe2hWa-rXdUzSkhWVtyRzew?e=kdZFBN) | [Video Celular](https://1drv.ms/v/c/08264f96dbafdff1/IQD3alXUYswETbc6GnG3gw0gAQ_gJYWp_NqMlOvCi17jSHs?e=u9QumX)
