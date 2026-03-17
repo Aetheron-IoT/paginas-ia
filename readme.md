@@ -46,24 +46,44 @@ Iniciar php:
 
 **D'Pana Restaurante**
 
-![preview](images/pagina-generada-1.jpg)
+<p style="display:flex">
+
+<img src="images/pagina-generada-1.jpg" height="300px"/>&nbsp;
+<img src="images/pagina-generada-celular-1.jpg" height="300px">
+
+</p>
 
 [Demo](https://aetheron-iot.github.io/paginas-ia/pages/pagina_1772851402.html) | [Video](https://youtu.be/PpCuMuFkMDM) | [Video Celular](https://youtube.com/shorts/OiAY-D2cfJ4) 
 
 **Domino Restaurant-Cafe**
 
-![preview](images/pagina-generada-2.jpg)
+<p float="left" style="display:flex">
+
+<img src="images/pagina-generada-2.jpg" height="300px"/>&nbsp;
+<img src="images/pagina-generada-celular-2.jpg" height="300px">
+
+</p>
 
 [Demo](https://aetheron-iot.github.io/paginas-ia/pages/pagina_1772906956.html) | [Video](https://youtu.be/Rm4ReBN56Sw) | [Video Celular](https://youtube.com/shorts/otr7UjctvJA)
 
 **Restaurant Facu's**
 
-![preview](images/pagina-generada-3.jpg)
+<p float="left" style="display:flex">
+
+<img src="images/pagina-generada-3.jpg" height="300px"/>&nbsp;
+<img src="images/pagina-generada-celular-3.jpg" height="300px">
+
+</p>
 
 [Demo](https://aetheron-iot.github.io/paginas-ia/pages/pagina_1772907338.html) | [Video](https://youtu.be/1NX0V3CXzzQ) | [Video Celular](https://youtube.com/shorts/o6LOuljDbJw)
 
 **Dao's Arequipa**
 
-![preview](images/pagina-generada-4.jpg)
+<p float="left" style="display:flex">
+
+<img src="images/pagina-generada-4.jpg" height="300px"/>&nbsp;
+<img src="images/pagina-generada-celular-4.jpg" height="300px">
+
+</p>
 
 [Demo](https://aetheron-iot.github.io/paginas-ia/pages/pagina_1772907833.html) | [Video](https://youtu.be/Qdx8dOqzayo) | [Video Celular](#)
