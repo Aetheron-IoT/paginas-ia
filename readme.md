@@ -46,7 +46,7 @@ Iniciar php:
 
 **D'Pana Restaurante**
 
-<p style="display:flex; gap:1em">
+<p style="display:flex; gap:2em">
 
 <img src="images/pagina-generada-1.jpg" height="300px"/>
 <img src="images/pagina-generada-celular-1.jpg" height="300px">
@@ -57,9 +57,9 @@ Iniciar php:
 
 **Domino Restaurant-Cafe**
 
-<p style="display:flex; gap:1em">
+<p style="display:flex; gap:2em">
 
-<img src="images/pagina-generada-2.jpg" height="300px"/>&nbsp;
+<img src="images/pagina-generada-2.jpg" height="300px"/>
 <img src="images/pagina-generada-celular-2.jpg" height="300px">
 
 </p>
@@ -68,9 +68,9 @@ Iniciar php:
 
 **Restaurant Facu's**
 
-<p style="display:flex; gap:1em">
+<p style="display:flex; gap:2em">
 
-<img src="images/pagina-generada-3.jpg" height="300px"/>&nbsp;
+<img src="images/pagina-generada-3.jpg" height="300px"/>
 <img src="images/pagina-generada-celular-3.jpg" height="300px">
 
 </p>
@@ -79,9 +79,9 @@ Iniciar php:
 
 **Dao's Arequipa**
 
-<p style="display:flex; gap:1em">
+<p style="display:flex; gap:2em">
 
-<img src="images/pagina-generada-4.jpg" height="300px"/>&nbsp;
+<img src="images/pagina-generada-4.jpg" height="300px"/>
 <img src="images/pagina-generada-celular-4.jpg" height="300px">
 
 </p>
