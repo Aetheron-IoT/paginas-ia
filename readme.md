@@ -46,9 +46,9 @@ Iniciar php:
 
 **D'Pana Restaurante**
 
-<p style="display:flex">
+<p style="display:flex; gap:1em">
 
-<img src="images/pagina-generada-1.jpg" height="300px"/>&nbsp;
+<img src="images/pagina-generada-1.jpg" height="300px"/>
 <img src="images/pagina-generada-celular-1.jpg" height="300px">
 
 </p>
@@ -57,18 +57,18 @@ Iniciar php:
 
 **Domino Restaurant-Cafe**
 
-<p float="left" style="display:flex">
+<p style="display:flex; gap:1em">
 
 <img src="images/pagina-generada-2.jpg" height="300px"/>&nbsp;
 <img src="images/pagina-generada-celular-2.jpg" height="300px">
 
 </p>
 
-[Demo](https://aetheron-iot.github.io/paginas-ia/pages/pagina_1772906956.html) | [Video](https://1drv.ms/v/c/08264f96dbafdff1/IQCvrav25uSNTIul86dpdnoKAdpUUyJp6n22Ncl3ewOnXgE?e=mD88qf) | [Video Celular](https://1drv.ms/v/c/08264f96dbafdff1/IQCJZ4BgyKkgQYcxmkY7gnTDAduWu1rNo6u9KjBBfUx4-Xk?e=n6PdwT)
+[Demo](https://aetheron-iot.github.io/paginas-ia/pages/pagina_1772906956.html) | [Video](https://1drv.ms/v/c/08264f96dbafdff1/IQCvrav25uSNTIul86dpdnoKAdpUUyJp6n22Ncl3ewOnXgE?e=50O9d2) | [Video Celular](https://1drv.ms/v/c/08264f96dbafdff1/IQCJZ4BgyKkgQYcxmkY7gnTDAduWu1rNo6u9KjBBfUx4-Xk?e=n6PdwT)
 
 **Restaurant Facu's**
 
-<p float="left" style="display:flex">
+<p style="display:flex; gap:1em">
 
 <img src="images/pagina-generada-3.jpg" height="300px"/>&nbsp;
 <img src="images/pagina-generada-celular-3.jpg" height="300px">
@@ -79,7 +79,7 @@ Iniciar php:
 
 **Dao's Arequipa**
 
-<p float="left" style="display:flex">
+<p style="display:flex; gap:1em">
 
 <img src="images/pagina-generada-4.jpg" height="300px"/>&nbsp;
 <img src="images/pagina-generada-celular-4.jpg" height="300px">
