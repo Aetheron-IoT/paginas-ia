@@ -239,7 +239,7 @@ Iniciar php:
 </tr>
 
 <tr>
-<td>Restaurant "Don Juan"</td>
+<td>Rest. D' Hijar</td>
 <td>
     <a href="">
     </a>
