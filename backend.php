@@ -9,7 +9,7 @@ error_reporting(E_ALL);
 $data = json_decode(file_get_contents("php://input"), true);
 $userPrompt = $data["prompt"] ?? "";
 
-$apiKey = $getenv("GEMINI_API_KEY");
+$apiKey = getenv("GEMINI_API_KEY");
 
 if (!$apiKey) {
     if (file_exists(".env")) {
