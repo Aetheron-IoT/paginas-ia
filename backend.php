@@ -61,10 +61,27 @@ if (!is_dir("pages")) {
     mkdir("pages", 0777, true);
 }
 
-$nombreArchivo = "pages/pagina_" . time() . ".html";
+// Generamos el timestamp una sola vez para que coincida en el servidor y en el JSON
+$timestamp = time();
+$nombreArchivo = "pages/pagina_" . $timestamp . ".html";
+$nombreSoloArchivo = "pagina_" . $timestamp . ".html";
 
 file_put_contents($nombreArchivo, $html);
 
 /* -------------------------- */
 
-echo $html;
+// 1. Nos aseguramos de que no haya salido NADA de texto antes (espacios, errores, etc.)
+if (ob_get_length()) ob_clean();
+
+// 2. Preparamos la respuesta ÚNICA (JSON)
+$respuesta = [
+    "html" => $html,
+    "nombre_archivo" => $nombreSoloArchivo
+];
+
+// 3. Enviamos cabecera y el JSON
+header('Content-Type: application/json');
+echo json_encode($respuesta);
+
+// 4. Salimos inmediatamente
+exit;

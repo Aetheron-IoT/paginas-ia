@@ -24,26 +24,60 @@ Crea una landing page moderna con navbar y sección de servicios.
 
 </div>
 
-<div id="bt-generar">
-<button onclick="generar()">Generar</button>
+<div class="button">
+<button id="btn-generar" onclick="generar()">Generar</button>
+<button id="btn-descargar" disabled>Descargar sitio web</button>
 </div>
 
 <iframe id="preview"></iframe>
 
 <script>
 async function generar() {
-    const prompt = document.getElementById("prompt").value;
+    const promptInput = document.getElementById("prompt").value;
+    const btnDescargar = document.getElementById("btn-descargar");
+    const preview = document.getElementById("preview");
 
-    document.getElementById("preview").srcdoc = "Generando página web..."
+    preview.srcdoc = "Generando página web...";
+    btnDescargar.disabled = true;
 
-    const response = await fetch("backend.php", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ prompt: prompt })
-    });
+    try {
+        const response = await fetch("backend.php", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ prompt: promptInput })
+        });
 
-    const html = await response.text();
-    document.getElementById("preview").srcdoc = html;
+        // LEEMOS LA RESPUESTA UNA SOLA VEZ COMO JSON
+        const data = await response.json();
+
+        // 1. Usamos el HTML que viene dentro del JSON para la preview
+        preview.srcdoc = data.html;
+
+        // 2. Habilitamos el botón
+        btnDescargar.disabled = false;
+
+        // 3. Configuramos la descarga con los datos del JSON
+        btnDescargar.onclick = function() {
+            const blob = new Blob([data.html], { type: 'text/html' });
+            const url = URL.createObjectURL(blob);
+            
+            const link = document.createElement('a');
+            link.href = url;
+            
+            // Usamos el nombre exacto que generó el PHP (pagina_XXXXX.html)
+            link.download = data.nombre_archivo; 
+            
+            document.body.appendChild(link);
+            link.click();
+            
+            document.body.removeChild(link);
+            URL.revokeObjectURL(url);
+        };
+
+    } catch (error) {
+        console.error("Error:", error);
+        preview.srcdoc = "Error al generar la página. Revisa la consola.";
+    }
 }
 </script>
 </div>

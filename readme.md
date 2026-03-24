@@ -12,6 +12,8 @@ De manera local se esta ejecutando en `paginas-ia.local` previa instalacion de n
 
 [Descargable](https://drive.google.com/file/d/17GGSOSrpV0eO697wPbncahJscp1zsUrs/view?usp=drive_link)
 
+Los siguientes comandos se ejecutaran con la terminal de CMD y no con POWESHELL.
+
 Version nginx:
 
     nginx -V
@@ -41,6 +43,10 @@ Version:
 Iniciar php:
 
     php-cgi.exe -b 127.0.0.1:9000
+
+## Flujo
+
+![flujo](images/flujo.jpg)
 
 ## Paginas HTML generadas
 
