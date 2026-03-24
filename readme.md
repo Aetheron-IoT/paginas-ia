@@ -174,6 +174,31 @@ Iniciar php:
 </td>
 </tr>
 
+
+<tr>
+<td>JANQUIPA</td>
+<td>
+    <a href="">
+    </a>
+</td>
+<td>
+    <a href="">
+    </a>
+</td>
+<td>
+    <a href="">
+    </a>
+</td>
+<td>
+    <a href="https://www.google.com/maps?cid=11911003751408933686">
+    Mapa</a>
+</td>
+<td>
+    <a href="https://search.google.com/local/reviews?placeid=ChIJQ3CxHxlLQpERNhsTAc5iTKU&q=restaurants&authuser=0&hl=en&gl=PE">
+    Reseñas</a>
+</td>
+</tr>
+
 <tr>
 <td>EL CARNÍVORO</td>
 <td>
