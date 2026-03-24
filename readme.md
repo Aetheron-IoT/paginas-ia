@@ -151,15 +151,17 @@ Iniciar php:
 <tr>
 <td>ROMANO - PASTAS & AHUMADOS</td>
 <td>
-    <a href="pages/pagina_1774320416.html">
+    <a href="https://aetheron-iot.github.io/paginas-ia/pages/pagina_1774320416.html">
     Demo</a>
-</td>
+</td> 
 <td>
-    <a href="">
+    <a href="https://1drv.ms/v/c/08264f96dbafdff1/IQBFrNHOFgZ8RbFHYHCmweVvAeyjjJelqkeEtONMGq2R-k0?e=33i3vf">
+    Video  
     </a>
 </td>
 <td>
-    <a href="">
+    <a href="https://1drv.ms/v/c/08264f96dbafdff1/IQDS4vwRRqZKT58C9hy4wD_rAVcuj2thcVTqsBeF3k8BZkk?e=XNHncR">
+    Video celular
     </a>
 </td>
 <td>
@@ -175,16 +177,16 @@ Iniciar php:
 <tr>
 <td>EL CARNÍVORO</td>
 <td>
-    <a href="">
-    </a>
+    <a href="https://aetheron-iot.github.io/paginas-ia/pages/pagina_1774327792.html">
+    Demo</a>
 </td>
 <td>
-    <a href="">
-    </a>
+    <a href="https://1drv.ms/v/c/08264f96dbafdff1/IQD-2GeDXfwaTIFBvI0l733fAaqk6bQLQkwCRTiI3QZ11iE?e=n9Pwzc">
+    Video</a>
 </td>
 <td>
-    <a href="">
-    </a>
+    <a href="https://1drv.ms/v/c/08264f96dbafdff1/IQCE2j1kO4_bQZh6Ss85hCBmATvIjJSFNM1A32K54ENAF-0?e=OF3zLb">
+    Video celular</a>
 </td>
 <td>
     <a href="https://www.google.com/maps?cid=11706320815221445407">
