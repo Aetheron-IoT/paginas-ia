@@ -5,7 +5,7 @@ async function generarHTML() {
 
     frame.innerHTML = "Generando...";
 
-    const response = await fetch('http://localhost:3000/generar-sitio', {
+    const response = await fetch('/generar-sitio', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ nombre, desc })
